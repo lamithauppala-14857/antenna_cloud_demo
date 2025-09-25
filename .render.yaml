@@ -3,6 +3,6 @@ services:
     name: antenna-cloud-demo
     env: python
     plan: free
-    buildCommand: pip install -r requirements.txt
-    startCommand: streamlit run app.py --server.port $PORT
-    runtime: python-3.11.8
+    buildCommand: pip install --upgrade pip setuptools wheel && pip install -r requirements.txt
+    startCommand: streamlit run app.py
+
