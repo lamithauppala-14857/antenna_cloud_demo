@@ -1,7 +1,7 @@
-streamlit==1.39.0
-pandas==2.2.3
-numpy==1.26.4
-plotly==5.14.1
-scikit-rf==0.25.0
-setuptools>=65.0.0
-wheel
+streamlit>=1.39.0
+pandas>=2.2.3
+numpy>=1.26
+scipy>=1.11
+scikit-rf>=0.27
+plotly>=5.14
+
