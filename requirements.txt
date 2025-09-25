@@ -1,6 +1,6 @@
-streamlit==1.27.0
-pandas==1.5.3
-numpy==1.23.5
+streamlit==1.39.0
+pandas==2.2.3
+numpy==1.26.4
 plotly==5.14.1
 scikit-rf==0.25.0
 setuptools>=65.0.0
